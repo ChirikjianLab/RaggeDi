@@ -3,6 +3,7 @@
 ## Author
 Jikai Ye*, Wanze Li*, Shiraz Khan, Gregory S. Chirikjian
 * indicates equal contributions.
+
 National University of Singapore
 University of Delaware
 
@@ -13,5 +14,5 @@ Cloth state estimation is an important problem in robotics. It is essential for 
 ![teaser](pipeline_3.jpg)
 
 ## Links
--  
+-  [Arxiv](https://arxiv.org/abs/2409.11831)
 -  Code and data will be available soon
