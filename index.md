@@ -1,14 +1,11 @@
-# I Get the Hang of It!
-![teaser](whole_procedure_10.jpg)
+# RaggeDi: Diffusion-based State Estimation of Disordered Rags, Sheets, Towels and Blankets
+![teaser](pipeline_3.jpg)
 ## Author
-Wanze Li, Lexin Pan, Boren Jiang, Yuwei Wu, Weixiao Liu, Gregory S. Chirikjian
-
-National University of Singapore, Johns Hopkins University
+Jikai Ye, Wanze Li, Shiraz Khan, Gregory S. Chirikjian
+National University of Singapore, University of Delaware
 
 ## Abstract
-The action of hanging previously unseen objects remains a challenge for robots due to the multitude of object shapes and the limited number of stable hanging arrangements. This paper proposes a learning-free framework that enables robots to infer stable relative poses between the object being hung (object) and the supporting item (supporter). Our method identifies potential hanging positions and orientations on previously unseen supporters and objects by analyzing the hanging mechanics and geometric properties. An evaluation policy is designed to match potential hanging positions and directions and to optimize the relative hanging poses. Experiments were conducted in both simulation and real-world scenarios. The success rates of our strategy outperform the state-of-the-art baseline method. The proposed method was also tested on unhangable pairs of objects and supporters and results show that our algorithm can reject false positive hanging properly. Finally, we ran experiments under different scanning conditions. Experimental results indicate that although the success rate decreases as the quality of the scan decreases, it remains at a high level. 
+Cloth state estimation is an important problem in robotics. It is essential for the robot to know the accurate state to manipulate cloth and execute tasks such as robotic dressing, stitching, and covering/uncovering human beings. However, estimating cloth state accurately remains challenging due to its high flexibility and self-occlusion. This paper proposes a diffusion model-based pipeline that formulates the cloth state estimation as an image generation problem by representing the cloth state as an RGB image that describes the point-wise translation (translation map) between a pre-defined flattened mesh and the deformed mesh in a canonical space. Then we train a conditional diffusion-based image generation model to predict the translation map based on an observation. Experiments are conducted in both simulation and the real world to validate the performance of our method. Results indicate that our method outperforms two recent methods in both accuracy and speed. 
 
 ## Links
-- [Supplementary Material](https://drive.google.com/file/d/1tSElpLl2EzayE5S0DUzYzR152mxgmB0A/view?usp=sharing)
-- [Video](https://drive.google.com/file/d/1oauboZ12CiVgnD7ye9s5YguNfSOyS-Ij/view?usp=sharing)
 - Code and data will be available soon
