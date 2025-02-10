@@ -6,6 +6,7 @@ Jikai Ye*, Wanze Li*, Shiraz Khan, Gregory S. Chirikjian
 \* indicates equal contributions.
 
 National University of Singapore
+
 University of Delaware
 
 ## Abstract
