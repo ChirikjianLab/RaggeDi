@@ -1,4 +1,4 @@
-# RaggeDi
+# RaggeDi: Diffusion-based State Estimation of Disordered Rags, Sheets, Towels and Blankets
 
 ## Author
 Jikai Ye*, Wanze Li*, Shiraz Khan, Gregory S. Chirikjian
